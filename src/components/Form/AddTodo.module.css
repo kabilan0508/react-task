@@ -1,0 +1,61 @@
+.inputform {
+  width: 500px;
+  max-width: 90%;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+}
+.closebutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  transform: translateY(-150%);
+  background-color: #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.closebutton img {
+  height: 24px;
+  width: 24px;
+}
+.closebutton:hover {
+  background-color: #f00;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 30px;
+}
+.forminput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 0 20px 0;
+}
+
+.forminput input {
+  font-size: 20px;
+  padding: 10px 10px;
+  border: none;
+}
+.selectform {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #fff;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.submitbutton {
+}
+.cancelbutton {
+  background-color: #cccdde;
+  color: #6e7287;
+}
